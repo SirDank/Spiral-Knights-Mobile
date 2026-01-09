@@ -12,15 +12,12 @@ KnightLauncher is a dedicated launcher that allows you to play **Spiral Knights*
 
 * **Dedicated Spiral Knights Experience:** Built specifically for Spiral Knights, handling its unique requirements.
 * **Simplified Installation:** Manages the entire process of downloading, installing, and running the game.
-* **OpenJDK Support:** Includes support for various OpenJDK versions (8, 11, 17, 21).
 * **Virtual Controls:** Integrated virtual controls for touch-based gameplay.
-* **Future Optimizations:** Work is ongoing for further optimization for touch screens.
 
 KnightLauncher is built upon the foundations of [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android), leveraging their capabilities to create a tailored Spiral Knights experience.
 
 **Where to find it:**
-Please refer to the official KnightLauncher project page for the latest releases, download links, and installation instructions.
 
----
+[KnightLauncher-Android](https://github.com/SirDank/KnightLauncher-Android)
 
-*Stay tuned for further updates on KnightLauncher's development and expanded platform support!*
+[KnightLauncher-iOS](https://github.com/SirDank/KnightLauncher-iOS)
