@@ -1,23 +1,27 @@
 # Spiral Knights Mobile - Guide Update
 
-**IMPORTANT:** The previous installation guides for PojavLauncher on Android and iOS are now outdated and no longer fully functional.
+**IMPORTANT:** All previous installation methods for Spiral Knights on mobile — including the original PojavLauncher guides and KnightLauncher — are now outdated and no longer maintained.
 
-I am excited to announce the development of a new, dedicated launcher designed to simplify playing **Spiral Knights** on mobile devices!
+The current recommended solution is **SKapsule**, a dedicated Android app built from scratch by [Noxwell](https://github.com/beebono).
 
-## Introducing KnightLauncher
+## Introducing SKapsule
 
-KnightLauncher is a dedicated launcher that allows you to play **Spiral Knights**. It handles the downloading, installation, and execution of the game, offering a much improved experience over previous methods. While currently focused on Android, the vision is to provide a more streamlined cross-platform solution.
+SKapsule is a purpose-built Android (arm64) port of Spiral Knights. Unlike previous methods, it is not based on PojavLauncher or any Minecraft launcher fork. It ships its own custom JRE and native libraries, boots the game's actual Java VM on-device, and pulls game files directly from Grey Havens' official servers at first launch via getdown — the same pipeline used by the desktop client.
 
 **Key Features:**
 
-* **Dedicated Spiral Knights Experience:** Built specifically for Spiral Knights, handling its unique requirements.
-* **Simplified Installation:** Manages the entire process of downloading, installing, and running the game.
-* **Virtual Controls:** Integrated virtual controls for touch-based gameplay.
-
-KnightLauncher is built upon the foundations of [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android), leveraging their capabilities to create a tailored Spiral Knights experience.
+- **Full Client Experience:** Downloads and patches the game from the official servers at first launch.
+- **Account Support:** Web and Steam login both supported.
+- **Gamepad-First Controls:** Designed for Bluetooth/USB controllers, with touch for menu navigation.
 
 **Where to find it:**
 
-[KnightLauncher-Android](https://github.com/SirDank/KnightLauncher-Android)
+[SKapsule Repository](https://github.com/SKonstruct/SKapsule)
 
-[KnightLauncher-iOS](https://github.com/SirDank/KnightLauncher-iOS)
+## History
+
+| Method | Status |
+|---|---|
+| PojavLauncher (iOS via Trollstore / Android manual setup) | Broken — game update broke compatibility |
+| KnightLauncher-Android (Amethyst-based APK) | Discontinued — superseded by SKapsule |
+| **SKapsule** | **Current — actively maintained** |
